@@ -12,6 +12,7 @@ public class BlockBreak implements Listener {
     public static void blockBreak (BlockBreakEvent e){
 
 
+
         if(e.getBlock().getType() != Material.SPONGE) return;
 
         RandomReward.getRandomReward(e.getPlayer(), e.getBlock().getLocation());

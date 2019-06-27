@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class RandomReward {
+public class  RandomReward {
 
     public static void getRandomReward (Player p, Location blockloc){
 

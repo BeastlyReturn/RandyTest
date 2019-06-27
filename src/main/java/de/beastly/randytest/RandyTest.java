@@ -5,7 +5,7 @@ package de.beastly.randytest;
         import org.bukkit.plugin.java.JavaPlugin;
 
 
-public class RandyTest extends JavaPlugin {
+public class  RandyTest extends JavaPlugin {
         public static RandyTest plugin;
 
         @Override
