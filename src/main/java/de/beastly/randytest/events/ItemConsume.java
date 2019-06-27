@@ -16,7 +16,7 @@ public class ItemConsume implements Listener {
             ItemStack item = e.getItem();
 
             if(item.getItemMeta().getLore().contains("§bFlash Trank")) {
-             e.getPlayer().addPotionEffect((new PotionEffect(PotionEffectType.SPEED, 10*20, 1)));
+              e.getPlayer().addPotionEffect((new PotionEffect(PotionEffectType.SPEED, 10*20, 1)));
 
         }
             if(item.getItemMeta().getLore().contains("§9Energydrink")) {

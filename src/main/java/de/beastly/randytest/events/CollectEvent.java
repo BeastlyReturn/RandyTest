@@ -14,7 +14,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.List;
 
-public class CollectEvent implements Listener {
+public class  CollectEvent implements Listener {
      @EventHandler
         public void itemDrop(PlayerDropItemEvent e) {
 

@@ -49,7 +49,7 @@ public class SwordThrow implements Listener {
             stand.setGravity(false);
             stand.setVisible(false);
 
-            Sword.sword(stand,  50);
+            Sword.sword(stand,   50);
         }else return;
 
 

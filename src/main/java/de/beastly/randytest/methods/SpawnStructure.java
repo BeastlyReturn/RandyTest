@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class  SpawnStructure {
+public class   SpawnStructure {
 
     public static void brunnen(Location loc, Location baseloc, Player p, Block b){
         ArmorStand stand = p.getWorld().spawn(baseloc.getBlock().getLocation().add(0.5,-1,0.5), ArmorStand.class);

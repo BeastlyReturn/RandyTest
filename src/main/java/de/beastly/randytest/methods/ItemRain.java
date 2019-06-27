@@ -10,7 +10,7 @@ public class ItemRain {
 
     public static void itemRain (Location loc){
 
-        int random =  ThreadLocalRandom.current().nextInt(1, 15  + 1);
+        int random =  ThreadLocalRandom.current().nextInt(1, 15   + 1);
 
         loc= loc.add(0,25,0);
         if(random == 1) loc.getWorld().dropItemNaturally(loc, new ItemStack(Material.COAL_ORE));

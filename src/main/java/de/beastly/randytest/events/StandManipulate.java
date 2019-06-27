@@ -5,7 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerArmorStandManipulateEvent;
 import org.bukkit.inventory.ItemStack;
 
-public class  StandManipulate implements Listener {
+public class   StandManipulate implements Listener {
 
     @EventHandler
     public static void standManipulate(PlayerArmorStandManipulateEvent e) {
